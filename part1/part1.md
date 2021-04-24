@@ -89,8 +89,8 @@ Part 1b.
     
 17.  The result will be  newArr = [2, 4, 6]. This is because for each element in the array passed in ([1, 2, 3]) push the result of the callback function, which we have defined as doSomething, into newArr. Since doSomething takes in a number and returns its double, then for each element in the array [1, 2, 3], we push the result of doSomething into newArr, which means that newArr holds [2, 4, 6]. 
     
-19.  Prtins 1, 3, and 4 immediately, and then it waits one second to print 2. So the output would be: 
+18.  Prints 1, and 4 immediately, and then it delays with 3 and waits one second to print 2. So the output would be: 
     1 
-    3 
     4
+    2
     2
