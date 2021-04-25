@@ -6,9 +6,9 @@
    
 4. part2.js  
    
-5. 1.4 MB  
+5. 11.6 MB  
    
-6. 3.5 min 
+6. 3 min 
     
 7. Mozilla/5.0  
    

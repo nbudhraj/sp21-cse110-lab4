@@ -1,5 +1,5 @@
 
-Part 1a. 
+## Part 1a. 
 
 1. values added: 20 
 
@@ -13,7 +13,7 @@ Part 1a.
    
 6. Error because constant is being accessed outside of the block that it was defined in. 
 
-Part 1b.
+## Part 1b. 
 
 1. Print out the 3 because that is the last value i is updated to before the loop terminates. Since i was declared as a var, its scope lives within the function it was defined in, which is why we are able to print it on line 12.
 
