@@ -1,14 +1,13 @@
 
 Part 1a. 
 
-var declaration:
-1. values added: 10 
+1. values added: 20 
 
-2. final result: 10 
+2. final result: 20 
 
-3. values added: 10 
+3. values added: 20 
    
-4. Error because result can only be accessed within the block it is defined in, which would be the in the if block that ends at line 10.
+4. Error because result can only be accessed within the block it is defined in, which would be the in the if block that ends at line 10. Thus, we cannot access result past line 10.
 
 5. Error because a constant cannot be reassigned 
    
@@ -16,7 +15,7 @@ var declaration:
 
 Part 1b.
 
-1. Print out the 2 because that is the last value i is updated to before the loop terminates. Since i was declared as a var, its scope lives within the function it was defined in, which is why we are able to print it on line 12.
+1. Print out the 3 because that is the last value i is updated to before the loop terminates. Since i was declared as a var, its scope lives within the function it was defined in, which is why we are able to print it on line 12.
 
 
 2. Prints out 150 because that was the last value discountedPrice was initialized to before the loop terminated. Since discountedPrice was declared as a var, its scope lives within the function it was defined in, which is why we are able to print it.
@@ -37,7 +36,7 @@ Part 1b.
 7. Prints out 150 because that was the last value finalPrice was updated to before the loop terminated. Since finalPrice was declared in the function block, its scope lives within the function, which is why we are able to access it and print it at line 14.
 
 
-8. Returns an array with all of the final prices after discount is applied because in the loop we update the discounted array with each of the finalPrice values we calculate. Since discounted was declared in the function block, its scope lives within the function, which is why we are able to access it and return it at line 16.
+8. Returns an array with all of the final prices after the discount is applied [50, 100, 150] because in the loop we update the discounted array with each of the finalPrice values we calculate. Since discounted was declared in the function block, its scope lives within the function, which is why we are able to access it and return it at line 16.
 
 
 9.  Error because i was initialized using let, which means it cannot be accessed outside of the block that it was defined in. Since i was defined in the for loop, it cannot be accesed at line 11.
