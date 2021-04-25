@@ -1,4 +1,4 @@
-1.   The bug is that num1 and num2 are interpreted as string, so as a result when we add them together in the calculateSum method, we are preforming string concatenation and return their concatenation rather than their numerical sum. 
+1.   The bug is that num1 and num2 are interpreted as string. As a result, when we add them together in the calculateSum method, we are preforming string concatenation and return their concatenation rather than their numerical sum. 
    
 2. To fix this, inside of the calculateSum method, I converted num1 and num2 into integers using parseInt().  
    
