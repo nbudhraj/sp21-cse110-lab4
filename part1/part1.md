@@ -7,11 +7,11 @@
 
 3. values added: 20 
    
-4. Error because result can only be accessed within the block it is defined in, which would be the in the if block that ends at line 10. Thus, we cannot access result past line 10.
+4. Error because result can only be accessed within the block it is defined in, which would be the in the if block that ends at line 11. Thus, we cannot access result past line 11.
 
 5. Error because a constant cannot be reassigned 
    
-6. Error because constant is being accessed outside of the block that it was defined in. 
+6. Error because constant cannot be reassigned and a constant cannot be accessed outside of the block that it was defined in. 
 
 ## Part 1b. 
 
@@ -45,7 +45,7 @@
 10. Prints out 3 because the const length was declared inside the function block, so its scope lives within the function, which means we can access it a line 12. The const length does not get reassigned after its declaration, which is also why we do not see an error.
 
 
-11. The function will return the discounted array containing prices after the discount is applied [50, 100, 150]. The variable discounted is declared as a const, which means that it can be updated and changed, but cannot be reassigned. Since we never reassign discount and we have declared the const within the function block, we do not have any errors.
+11. The function will return the discounted array containing prices after the discount is applied [50, 100, 150]. The variable discounted is declared as a const, which means that it can be updated, but cannot be reassigned. Since we never reassign discount and we have declared the const within the function block, we do not have any errors.
 
 
 12.   
@@ -89,8 +89,11 @@
     
 17.  The result will be  newArr = [2, 4, 6]. This is because for each element in the array passed in ([1, 2, 3]) push the result of the callback function, which we have defined as doSomething, into newArr. Since doSomething takes in a number and returns its double, then for each element in the array [1, 2, 3], we push the result of doSomething into newArr, which means that newArr holds [2, 4, 6]. 
     
-19.  Prints 1, and 4 immediately, and then it delays a bit with 3 and waits one second to print 2. So the output would be: 
-    1 
-    4
-    3
+19.  Prints 1 and 4 immediately, and then it delays a bit to print 3 and waits one second to print 2. So the output would be: 
+    1  
+
+    4 
+
+    3 
+    
     2
